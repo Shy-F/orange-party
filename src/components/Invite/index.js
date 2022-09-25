@@ -38,7 +38,8 @@ const Invite = () => {
                     <h2> At Twin Fountains</h2>
                     <p> 7402 Twin Fountain Blvd</p>
                     <p> Mason, Ohio 45040</p>
-                    <h3> Kindly RSVP to Shybreasia by October 3rd 2022</h3>
+                    <h3> Kindly RSVP to Shybreasia by</h3>
+                    <h4> October 3, 2022</h4>
                     <p> 513-259-5196 </p>
                 </div>
                 </div>

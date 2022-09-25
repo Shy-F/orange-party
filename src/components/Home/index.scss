@@ -1,8 +1,8 @@
 
 .title { 
-    background-color: #fff;
     position: relative;
-    left: 37.5%;
+    margin-left: auto;
+    margin-right: auto;
     top: 25px;
     width: 360px;
     
@@ -23,8 +23,8 @@
     margin-left: auto;
     margin-right: auto;
     top: 50px;
-    width: 800px;
-    height: 400px;
+    width: 400px;
+    height: 200px;
     transition: transform 3s;
     transform-style: preserve-3d;
 
@@ -44,11 +44,11 @@
             color: #2e791e;
             left: 5px;
             top: 0;
-            width: 400px;
-            height: 150px;
+            width: 200px;
+            height: 75px;
 
             p {
-                font-size: 20px;
+                font-size: 16px;
                 line-height: 5px;
             }
         }
@@ -57,8 +57,8 @@
             position: absolute;
             right: 5px;
             top: 5px;
-            width: 150px;
-            height: 150px;
+            width: 75px;
+            height: 75px;
         }
 
         .to {
@@ -67,11 +67,11 @@
             margin-left: auto;
             margin-right: auto;
             bottom: 0;
-            width: 400px;
-            height: 200px;
+            width: 200px;
+            height: 100px;
 
             p{
-                font-size: 30px;
+                font-size: 20px;
                 line-height: 5px;
                 text-align: center;
             }
@@ -82,9 +82,9 @@
             top: 0;
             width: 0;
 	        height: 0;
-	        border-left: 400px solid transparent;
-	        border-right: 400px solid transparent;
-	        border-top: 300px solid #fa8825;
+	        border-left: 200px solid transparent;
+	        border-right: 200px solid transparent;
+	        border-top: 150px solid #fa8825;
         }
 
         .opener-bottom {
@@ -92,16 +92,16 @@
             bottom: 0;
             width: 0;
 	        height: 0;
-	        border-left: 400px solid transparent;
-	        border-right: 400px solid transparent;
-	        border-bottom: 200px solid #fa8315;
+	        border-left: 200px solid transparent;
+	        border-right: 200px solid transparent;
+	        border-bottom: 100px solid #fa8315;
         }
 
         .seal {
             position: absolute;
-            top: 225px;
-            height: 100px;
-            width: 100px;
+            top: 125px;
+            height: 50px;
+            width: 50px;
             background-color: #fa8825;
              border-radius: 50%;
         }
@@ -116,3 +116,4 @@
 .envelope-back{
     transform: rotateY(180deg);
 }
+
