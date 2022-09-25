@@ -19,13 +19,12 @@
 
 .envelope {
     position: relative;
-    background-color: #fff;
     margin-left: auto;
     margin-right: auto;
     top: 50px;
     width: 400px;
     height: 200px;
-    transition: transform 3s;
+    transition: transform 10s;
     transform-style: preserve-3d;
 
     .envelope-front, .envelope-back {
@@ -37,6 +36,7 @@
         justify-content: center;
         align-items: center;
         backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
         box-shadow: 0 10px 10px grey;
 
         .from {
@@ -117,3 +117,8 @@
     transform: rotateY(180deg);
 }
 
+@for $i from 1 through 35 {
+    .envelope._#{$i} {
+        transition-delay: #{$i / 10}s;
+    }
+}
