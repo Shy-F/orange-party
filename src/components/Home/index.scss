@@ -1,10 +1,60 @@
 
+.falling-orange1 {
+    img {
+        position: absolute;
+        left: 150px;
+        width: 30px;
+        height: 30px;
+        animation: drop 10s ease forwards;
+        animation-iteration-count: infinite;
+    }
+}
+.falling-orange2 {
+    img {
+        position: absolute;
+        left: 250px;
+        width: 30px;
+        height: 30px;
+        animation: drop 10s ease forwards;
+        animation-iteration-count: infinite;
+    }
+}
+.falling-orange3 {
+    img {
+        position: absolute;
+        left: 350px;
+        width: 30px;
+        height: 30px;
+        animation: drop 10s ease forwards;
+        animation-iteration-count: infinite;
+    }
+}
+.falling-orange4 {
+    img {
+        position: absolute;
+        left: 450px;
+        width: 30px;
+        height: 30px;
+        animation: drop 10s ease forwards;
+        animation-iteration-count: infinite;
+    }
+}
+.falling-orange5 {
+    img {
+        position: absolute;
+        left: 550px;
+        width: 30px;
+        height: 30px;
+        animation: drop 10s ease forwards;
+        animation-iteration-count: infinite;
+    }
+}
 .title { 
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: 25px;
-    width: 360px;
+    top: 35px;
+    width: 300px;
     
     h1 {
         color: #fa8215;
@@ -122,3 +172,8 @@
         transition-delay: #{$i / 10}s;
     }
 }
+@keyframes drop{
+    0%{opacity: 1}
+    70%{transform: translateY(700px)}
+    100%{transform: translateY(650px)}
+  }

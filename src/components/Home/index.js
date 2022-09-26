@@ -2,10 +2,26 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import orangeStamp from '../../assets/images/orange-stamp.jpg'
 import orangeSeal from '../../assets/images/orange-seal.PNG'
+import fallingOrange from '../../assets/images/falling-orange.png'
 
 const Home = () => {
     return (
         <>
+        <div className='falling-orange1'>
+            <img src={fallingOrange} alt='orange' />
+        </div>
+        <div className='falling-orange2'>
+            <img src={fallingOrange} alt='orange' />
+        </div>
+        <div className='falling-orange3'>
+            <img src={fallingOrange} alt='orange' />
+        </div>
+        <div className='falling-orange4'>
+            <img src={fallingOrange} alt='orange' />
+        </div>
+        <div className='falling-orange5'>
+            <img src={fallingOrange} alt='orange' />
+        </div>
         <div className='title'>
             <h1> Orange You Curious?</h1>
         </div>
