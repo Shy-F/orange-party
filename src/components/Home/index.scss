@@ -2,6 +2,7 @@
 .falling-orange1 {
     img {
         position: absolute;
+        top: -30px;
         left: 150px;
         width: 30px;
         height: 30px;
@@ -12,41 +13,49 @@
 .falling-orange2 {
     img {
         position: absolute;
+        top: -30px;
         left: 250px;
         width: 30px;
         height: 30px;
         animation: drop 10s ease forwards;
         animation-iteration-count: infinite;
+        animation-delay: 2.4s;
     }
 }
 .falling-orange3 {
     img {
         position: absolute;
+        top: -30px;
         left: 350px;
         width: 30px;
         height: 30px;
         animation: drop 10s ease forwards;
         animation-iteration-count: infinite;
+        animation-delay: 0.8s;
     }
 }
 .falling-orange4 {
     img {
         position: absolute;
+        top: -30px;
         left: 450px;
         width: 30px;
         height: 30px;
         animation: drop 10s ease forwards;
         animation-iteration-count: infinite;
+        animation-delay: 1.6s;
     }
 }
 .falling-orange5 {
     img {
         position: absolute;
+        top: -30px;
         left: 550px;
         width: 30px;
         height: 30px;
         animation: drop 10s ease forwards;
         animation-iteration-count: infinite;
+        animation-delay: 3.2s;
     }
 }
 .title { 
